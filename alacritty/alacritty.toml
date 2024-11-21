@@ -1,0 +1,72 @@
+# Alacritty Configuration
+
+[window]
+decorations = "none"  # Disable window decorations (no title bar, borders, etc.)
+padding = { x = 20, y = 20 }  # Set margin of 10 on all sides
+blur = true
+dimensions = { columns = 90, lines = 30 }
+opacity = 0.8
+
+# Key bindings for copy and paste
+[keyboard]
+bindings = [
+    { key = "C", mods = "Control|Shift", action = "Copy" },
+    { key = "V", mods = "Control|Shift", action = "Paste" },
+
+    # Font size adjustments
+    { key = "Equals", mods = "Control|Shift", action = "IncreaseFontSize" },
+    { key = "Minus", mods = "Control|Shift", action = "DecreaseFontSize" },
+    { key = "0", mods = "Control|Shift", action = "ResetFontSize" },
+
+    # Scrolling
+    { key = "PageUp", action = "ScrollPageUp" },
+    { key = "PageDown", action = "ScrollPageDown" },
+    { key = "Up", mods = "Control", action = "ScrollLineUp" },
+    { key = "Down", mods = "Control", action = "ScrollLineDown" },
+
+    # Window controls
+    { key = "F11", action = "ToggleFullscreen" },
+    { key = "F10", action = "Minimize" },
+    { key = "Q", mods = "Control|Shift", action = "Quit" },
+]
+
+[colors]
+  # Primary colors
+  [colors.primary]
+  background = "0x000000"  # Black background
+  foreground = "0xffffff"  # White foreground for high contrast
+
+  # Cursor colors
+  [colors.cursor]
+  text = "0x000000"  # Black text for the cursor
+  cursor = "0xffffff"  # White cursor
+
+  # Selection colors
+  [colors.selection]
+  text = "0x000000"  # Black text for selected text
+  background = "0xffffff"  # White background for selected text
+
+  # High contrast colors matching black background
+  [colors.normal]
+  black   = "0x000000"  # Black
+  red     = "0xff4040"  # Light Red (to match black background)
+  green   = "0x40ff40"  # Light Green
+  yellow  = "0xffff40"  # Light Yellow
+  blue    = "0x4040ff"  # Light Blue
+  magenta = "0xff40ff"  # Light Magenta
+  cyan    = "0x40ffff"  # Light Cyan
+  white   = "0xffffff"  # White
+
+  [colors.bright]
+  black   = "0x404040"  # Dark Gray (for bright black)
+  red     = "0xff8080"  # Light Red
+  green   = "0x80ff80"  # Light Green
+  yellow  = "0xffff80"  # Light Yellow
+  blue    = "0x8080ff"  # Light Blue
+  magenta = "0xff80ff"  # Light Magenta
+  cyan    = "0x80ffff"  # Light Cyan
+  white   = "0xffffff"  # Bright White
+
+[font]
+size = 15.0  # Font size
+

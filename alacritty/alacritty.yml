@@ -1,0 +1,41 @@
+# Alacritty configuration file
+
+window:
+  decorations: none  # Disable window decorations (no title bar, borders, etc.)
+  padding:
+    x: 10  # Horizontal margin
+    y: 10  # Vertical margin
+
+colors:
+  primary:
+    background: '0x0a0a0a'  # Pitch Black background color
+    foreground: '0xffffff'  # White text color for high contrast
+  
+  cursor:
+    text: '0x000000'  # Black text for the cursor
+    cursor: '0xff0000'  # Full red cursor color
+
+  selection:
+    text: '0x000000'  # Black text for selection
+    background: '0xff0000'  # Red background for selected text
+
+  # High contrast colors
+  normal:
+    black:   '0x000000'  # Black
+    red:     '0xff0000'  # Full Red
+    green:   '0x00ff00'  # Full Green
+    yellow:  '0xffff00'  # Yellow
+    blue:    '0x0000ff'  # Full Blue
+    magenta: '0xff00ff'  # Magenta
+    cyan:    '0x00ffff'  # Cyan
+    white:   '0xffffff'  # White
+  
+  bright:
+    black:   '0x555555'  # Bright Black
+    red:     '0xff5555'  # Bright Red
+    green:   '0x55ff55'  # Bright Green
+    yellow:  '0xffff55'  # Bright Yellow
+    blue:    '0x5555ff'  # Bright Blue
+    magenta: '0xff55ff'  # Bright Magenta
+    cyan:    '0x55ffff'  # Bright Cyan
+    white:   '0xffffff'  # Bright White
