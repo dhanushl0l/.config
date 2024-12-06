@@ -1,10 +1,9 @@
 *
-!nvim/
-!alacritty/
-!hypr/
-!rofi/
-!hyprpanel/
-!screpts/
-!spicetify/
-!waybar
+!/nvim/
+!/alacritty/
+!/hypr/
+!/rofi/
+!/hyprpanel/
+!/screpts/
+!/spicetify/
 !.gitignore
