@@ -1,4 +1,10 @@
-/*
-!/alacritty/
-!/forge/
-!/nvim/
+*
+!nvim/
+!alacritty/
+!hypr/
+!rofi/
+!hyprpanel/
+!screpts/
+!spicetify/
+!waybar
+!.gitignore
