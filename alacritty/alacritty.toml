@@ -68,8 +68,4 @@ bindings = [
   white   = "0xffffff"  # Bright White
 
 [font]
-normal = { family = "FiraCode Nerd Font Mono", style = "Regular" } # Specify your preferred font and style
-bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }     # Optional for bold text
-italic = { family = "FiraCode Nerd Font Mono", style = "Italic" } # Optional for italic text
-bold_italic = { family = "FiraCode Nerd Font Mono", style = "Bold Italic" } # Optional for bold and italic
 size = 12                                          # Adjust font size as needed
